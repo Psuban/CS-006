@@ -12,6 +12,12 @@
         .auto-style2 {
             color: #990000;
         }
+        .auto-style3 {
+            width: 100%;
+        }
+        .auto-style4 {
+            background-color: #FFFF99;
+        }
     </style>
 </head>
 <body>
@@ -38,5 +44,36 @@
             <asp:Image ID="Image1" runat="server" Height="100px" ImageAlign="Middle" ImageUrl="~/20160722_073353744_iOS.jpg" />
         </p>
     </form>
-    </body>
+    <table class="auto-style3">
+        <tr>
+            <td>Player</td>
+            <td>Year</td>
+            <td>Home runs</td>
+        </tr>
+        <tr>
+            <td>Sammy Sosa</td>
+            <td>2005</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Mark MacQuire</td>
+            <td>2005</td>
+            <td>102</td>
+        </tr>
+    </table>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+    <ul>
+        <li class="auto-style4">This is an idea</li>
+        <li class="auto-style4">This is an equally good idea</li>
+        <li class="auto-style4">yet one more idea to consider</li>
+    </ul>
+</body>
 </html>
